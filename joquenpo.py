@@ -5,8 +5,12 @@ escolha=int(input('''==== JOKENPÔ ====
 [1] Papel 
 [2] Tesoura
 ESCOLHA UMA DAS OPÇÕES: '''))
-print('Computador escolhendo também...')
-time.sleep(2)
+print('JO')
+time.sleep(1)
+print('KEN')
+time.sleep(1)
+print('PO!!')
+
 print('\033[2:33mVamos lá')
 print('Você:', 'Pedra' if escolha == 0 else '' or 'Papel' if escolha == 1 else '' or 'Tesoura' if escolha ==2 else '')
 print('Computador:', 'Pedra' if computador == 0 else '' or 'Papel' if computador == 1 else '' or 'Tesoura'if computador == 2 else '' )
@@ -32,3 +36,5 @@ elif escolha == computador :
         print('Os dois escolheram PAPEL, tente novamente!')
     if escolha == 2:
         print('Os dois escolheram TESOURA, tente novamente!')
+else:
+    print('JOGADA INVÁLIDA, INSIRA UM NUMERO VÁLIDO')
